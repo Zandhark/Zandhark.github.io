@@ -1,0 +1,88 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    background-color: black
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.HeaderTitle {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.HeaderSubtitle {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+main{
+    width: 100%;
+    height: 200px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: calc(100% - (150px));
+}
+
+.MainSectionBoxes{
+    border-radius: 10px;
+    width: 400px;
+    height: 100px;
+    margin: 10px;
+    padding: 5%;
+    text-align: center;
+    background-color: rgb(66, 66, 66);
+    color: white;
+}
+
+.MainSectionImages {
+    border-radius: 10px;
+    width: 570px;
+    padding: 5px;
+    margin-top: 10px;
+    display: flex;
+    background-color: rgb(66, 66, 66);
+    justify-content: space-between;
+}
+
+.MainSectionImage {
+    width: 210px;
+    height: auto;
+}
+
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(100, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: white;
+    padding: 5px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-size: 17px;
+}
+
